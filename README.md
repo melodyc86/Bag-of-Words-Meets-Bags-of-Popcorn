@@ -11,7 +11,7 @@ The dataset comprises movie reviews from IMDB with binary sentiment classificati
 # Methodology
 ## Data Preprocessing
 - Text Data Loading: Utilized Pandas to load the training and test datasets from CSV files.
-- Data Splitting: Split the training data into training and validation sets using train_test_split from sklearn, ensuring a fair distribution for model training and validation.
+- Data Splitting: Split the training data into training and validation sets using train_test_split from scikit-learn, ensuring a fair distribution for model training and validation.
 - Vectorization: Applied CountVectorizer to convert text data into numerical vectors, a necessary step for feeding textual data into a machine learning model.
 ## Model Development
 - Neural Network Architecture: Developed a simple feedforward neural network using PyTorch, with layers defined in the TextClassifier class. The model consists of fully connected layers and ReLU activations.
@@ -28,4 +28,5 @@ I've also included the sentient.csv file for future analysis.
 - Python
 - PyTorch for model building
 - Pandas and NumPy for data manipulation
-- Sklearn for data preprocessing
+- Scikit-learn for data preprocessing
+- Matplotlib for data visualization
